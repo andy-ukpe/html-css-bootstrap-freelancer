@@ -28,32 +28,103 @@ a{
 .ms_copyright{
   background-color: #2c3e50;
 }
+.ms_button{
+  padding: 12px 10px;
+  border-radius: 5px;
+}
+.ms_button:hover{
+  color: white;
+  text-decoration: none;
+}
+.ms_cta{
+  margin: 15px 0;
+}
 /* componets */
+/* navigation */
 .ms_navbar{
   background-color: #2c3e50;
   height: 70px;
+  color: white;
+  line-height: 70px;
+  font-size: 17px;
 }
+.ms_navbar a{
+  color: white;
+}
+.ms_burger_toogle{
+  text-align: right;
+  font-size: 30px;
+}
+/* jambotron */
 .ms_jambotron{
   background-color: #1abc9c;
   text-align: center;
+}
+.ms_avatar img{
+  height: 250px;
 }
 /* portfolio */
 .ms_portfolio{
   text-align: center;
 }
-.ms_portfolio_item{
-  height:300px;
-  border-radius: 10px;
-  background-color: #ba4b63;
+.ms_portfolio_item {
   margin-bottom: 30px;
+}
+.ms_portfolio_item img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
 }
 /* about */
 .ms_wrapper{
   width: 80%;
   margin: 0 auto;
 }
+.ms_button_download{
+  border: 1px solid white;
+  color: white;
+}
+.ms_button_download:hover{
+  background-color: #13947a;
+}
+/* contact */
+  .ms_button_contact{
+    background-color: #1abc9c;
+    color: white;
+  }
+  .ms_button_contact:hover{
+    background-color: #13947a;
+    color: white;
+    text-decoration: none;
+  }
+  .form-control{
+    width: 100%;
+  }
 /* footer */
-
+  .ms_icons{
+    padding-left: 0;
+  }
+  .ms_icons li{
+    display: inline-block;
+    text-decoration: none;
+  }
+  .ms_icons li a{
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .ms_icons li .ms_round{
+    background-color: #3a546d;
+    height: 14px;
+    width: 14px;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 18px;
+    position: relative;
+    }
 /* fine components */
 
 /* MEDIA QUERY */
